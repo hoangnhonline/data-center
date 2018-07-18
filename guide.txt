@@ -1,0 +1,44 @@
+I. SITE CENTER
+
+ - Giải nén thư mục center.zip upload lên host
+ - Database trong thư mục database
+ - Tạo database trên host sau đó vào file models/Backend.php để chỉnh sửa cấu hình kết nối database
+ - Dùng mysql_dumper để import database (do data lớn)
+ - Chạy site
+ - User + pass đăng nhập: datacenter / Ej^WnG&8@XGx9%Fk
+ - Vào menu Cate để chỉnh sửa cate nếu muốn . Lưu ý : đây là cate dùng chung cho tất cả các site
+
+ 
+ II. SITE CON
+ 
+ - Giải nén thư mục hihi.zip upload lên host
+ - Database trong thư mục database
+ - Tạo database trên host sau đó vào file config.php để chỉnh sửa cấu hình kết nối database
+ 
+ 
+ III. Import data lần đầu
+ 
+ - Phải đảm bảo rằng bước chuẩn bị site con đã được tiến hành
+ - Vào site center -> menu site -> add one hoặc add multi
+ 
+ + Ví dụ Add one: 
+ 
+ Site URL : http://hihi.com
+ Site Name : hihi.com
+ .... các phần còn lại nếu không nhập sẽ lấy giá trị default
+ 
+ + Ví dụ Add multi
+ 
+ Site list : http://hihi.com; http://haha.com; http://kaka.com
+ 
+ IV. Setup cron jobs để auto import data mỗi ngày.
+ 
+ Setup cho file job.php trong site center chạy auto mỗi ngày 1 lần. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
